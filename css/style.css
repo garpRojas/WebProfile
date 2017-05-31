@@ -1,0 +1,40 @@
+
+/*Set enviroment*/
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+}
+
+/* Header  and nav*/
+header{
+	background-image: url('../img/header_bkg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1; 
+}
+
+header h1{
+	color: #FFF !important;
+	font-size: 390%;
+	margin: 0 !important;
+}
+
+.navbar{float: right !important;}
+
+.nav li a{
+	color: #FFF !important;
+	font-size: 160%;
+}
+
+/*@media query*/
